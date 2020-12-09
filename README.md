@@ -24,6 +24,9 @@
 **1 数据库建表**
 
 create DB/schema: ssm_hrms
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass123';
+```
 
 tbl_emp表：
 ```
