@@ -66,14 +66,23 @@ CREATE TABLE `tbl_dept`(
 见resources/springmvc.xml.
 
 **3 Create a Maven run configuration for Jetty in IntelliJ**
+
 （1）From IntelliJ, click Run > Edit Configurations
+
 （2）Click Add New Configuration (the plus sign)
+
 （3）Choose Maven
+
 （4）Name it Jetty (or whatever you like)
+
 （5）Choose the appropriate working directory
+
 （6）In Goals, enter jetty:run
+
 （7）Click the Runner tab
+
 （8）In VM Parameters, enter -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=4000. Note: the address here corresponds to the port you will debug with. Using 4000 leaves the more standard 5005 debug port open for other debuggers.
+
 （9）Click Ok
 
 **4 测试**
