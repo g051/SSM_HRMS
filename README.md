@@ -65,7 +65,7 @@ CREATE TABLE `tbl_dept`(
 （4）SpringMVC配置文件：springmvc.xml：
 见resources/springmvc.xml.
 
-** Create a Maven run configuration for Jetty in IntelliJ **
+**3 Create a Maven run configuration for Jetty in IntelliJ**
 （1）From IntelliJ, click Run > Edit Configurations
 （2）Click Add New Configuration (the plus sign)
 （3）Choose Maven
@@ -76,7 +76,7 @@ CREATE TABLE `tbl_dept`(
 （8）In VM Parameters, enter -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=4000. Note: the address here corresponds to the port you will debug with. Using 4000 leaves the more standard 5005 debug port open for other debuggers.
 （9）Click Ok
 
-**3 测试**
+**4 测试**
 写好上述配置文件后，可以在controller目录下新建TestController.java文件和WEB-INF/jsp/test.jsp，启动容器测试是否成功。
 
 
